@@ -20,8 +20,8 @@
 # ```
 
 def q1(names, heights):
-    # Escreva seu código aqui
-    pass
+ Input: nomes =["Marcos", "Julio","Emily"], altura =[180, 165, 170]
+ Output:["Marcos", "Emily","Julio"]
 
 
 if __name__ == '__main__':
