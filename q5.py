@@ -23,8 +23,19 @@
 # ```
 
 def q5(paths):
-    # Escreva seu código aqui
-    pass
+ ["Paris","Lisboa"],["Madrid","Roma"],["Bruxelas","Brasilia"]]
+# Output: "Brasilia"
+# Explicação: "Paris" -> "Madrid" -> "Roma" -> "Brasilia",   
+    
+ Input: paths = [["B","C"],["D","B"],["C","A"]]
+# Output: "A"
+# Explicação: Todos os caminhos possíveis são:
+# "D" -> "B" -> "C" -> "A".
+# "B" -> "C" -> "A".
+# "C" -> "A".
+# "A".
+# Portanto, "A" é a cidade de destino.
+# ```
 
 
 if __name__ == '__main__':
