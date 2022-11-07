@@ -25,7 +25,7 @@ def q3(prices):
     menor=50    
     indice=0
     x=0
-    while x<len(prices)
+    while x<len(prices):
        if prices[x] < menor:
            menor = prices [x]
            indice = x
