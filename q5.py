@@ -23,7 +23,7 @@
 # ```
 
 def q5(paths):
- C = []
+    C = []
     S = []
     for i, x in enumerate(paths):
         CS.append(paths[i][0])
