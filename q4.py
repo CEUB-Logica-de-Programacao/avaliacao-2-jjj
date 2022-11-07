@@ -32,3 +32,4 @@ def q4(numeral):
             valint += valromano[numeral[i]] -2 * valromano[numeral[i-1]]
         else:
             valint+=valromano[numeral[i]]
+    return valint
