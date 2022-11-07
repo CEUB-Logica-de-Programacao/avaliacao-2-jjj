@@ -25,7 +25,7 @@
 # Dado um numeral romano, converta-o para um número inteiro.
 
 def q4(numeral):
-    valr = {'I':1,'V':5,'X':10,'L':50,'C':100,'D':500,'M':1000}
+    valromano = {'I':1,'V':5,'X':10,'L':50,'C':100,'D':500,'M':1000}
     valint=0
     for i in range(len(numeral)):
         if i > 0 and valromano[numeral[i]] > valromano[numeral[i-1]]:
