@@ -21,7 +21,7 @@
 
 def q1(names, heights):
  Input: nomes =["Marcos", "Julio","Emily"], altura =[180, 165, 170]
- Output:["Marcos", "Emily","Julio"]
+ Print :["Marcos", "Emily","Julio"]
 
 
 if __name__ == '__main__':
