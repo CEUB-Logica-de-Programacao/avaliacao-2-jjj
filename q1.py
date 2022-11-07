@@ -20,7 +20,7 @@
 # ```
 
 def q1(names, heights):
-  lista = []
+    lista = []
     listacerta = []
     x = 0
     for i in names:
