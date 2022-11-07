@@ -23,6 +23,13 @@
 # ```
 
 def q5(paths):
- pass
+ C = []
+    S = []
+    for i, x in enumerate(paths):
+        CS.append(paths[i][0])
+    for i, x in enumerate(paths):
+        if paths[i][1] not in CS:
+            SS.append(paths[i][1])
+    return SS[0]
 if __name__ == '__main__':
     print(q5([["London", "New York"], ["New York", "Lima"], ["Lima", "Sao Paulo"]]))
