@@ -20,9 +20,9 @@
 # ```
 
 def q1(names, heights):
- Input: nomes =["Marcos", "Julio","Emily"], altura =[180, 165, 170]
- Print :["Marcos", "Emily","Julio"]
-
+# Input: nomes =["Marcos", "Julio","Emily"], altura =[180, 165, 170]
+ #Print :["Marcos", "Emily","Julio"]
+ pass
 
 if __name__ == '__main__':
     print(q1(["Mary", "John", "Emma"], [180, 165, 170]))
