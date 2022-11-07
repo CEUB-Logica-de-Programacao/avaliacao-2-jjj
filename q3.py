@@ -20,9 +20,26 @@
 # Output: 0
 # Explicação: Não é possível obter lucro, pois o preço de venda deve ser maior que o preço de compra.
 # ```
-
 def q3(prices):
-    # Escreva seu código aqui
+    lista = []
+    menor = 50
+    indice = 0
+    x = 0
+    while x < len(prices):
+        if prices[x] < menor:
+            menor = prices[x]
+            indice = x
+        x +=1
+    y = indice
+    i = len(prices)
+    i-=indice
+    for j in range(i):
+        lista.append(prices[y])
+        y+=1
+    lista = sorted(lista)
+    x=len(lista)
+    maior = lista[x-1] - lista[0]
+    return maior
     pass
 
 
