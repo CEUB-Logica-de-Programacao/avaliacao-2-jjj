@@ -22,8 +22,10 @@
 # ```
 
 def q3(prices):
-    # Escreva seu código aqui
-    pass
+  Input: prices = [7,1,5,3,6,1]
+  Output: 0
+  Explicação: Não é possível obter lucro
+    
 
 
 if __name__ == '__main__':
