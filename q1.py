@@ -20,9 +20,17 @@
 # ```
 
 def q1(names, heights):
-# Input: nomes =["Marcos", "Julio","Emily"], altura =[180, 165, 170]
- #Print :["Marcos", "Emily","Julio"]
- pass
+ lista=[]
+ listacerta=[]
+ x = 0
+ for i in names
+     lista.append([i, heights[x]])
+     x += 1
+ lista=sorted(lista, key=lambda item; item[1]),reverse True
+ for i in range(len(lista)):
+     listacerta.append(lista[i][0])
+     return listacerta
+
 
 if __name__ == '__main__':
     print(q1(["Mary", "John", "Emma"], [180, 165, 170]))
